@@ -1,0 +1,30 @@
+<div class="color: black">
+    <h1>[民眾順風車] 媒合成功通知</h1>
+    <p>感謝您分享你的愛心與熱情，一同參與了KP順風接駁服務，幾件事情告知，並希望您協助：</p>
+    <ol>
+        <li>請乘客與司機互相聯繫，確認彼此的上車時間與地點</li>
+        <li>本平台統一以寄送 Email 的方式通知 駕駛與乘客雙方</li>
+        <li>此信件寄出，系統將默認媒合成功。若雙方接駁需求溝通不順利，希望能再重新媒合新的駕駛或是乘客，請重新<a href="https://forms.gle/2j9YX2LQdD95zCAS7">填寫表單</a>申請。</li>
+    </ol>
+
+    <p>出發日期：{driver_info['date']}</p>
+    <p>路線方向：{driver_info['direction']}</p>
+
+    <h1>與您媒合到的共乘名單：</h1>
+    <h3>【司機】</h3>
+    <ul>
+        <li>姓名：{driver_info['name']}</li>
+        <li>Email：{driver_info['Email']}</li>
+        <li>手機：{driver_info['phone']}</li>
+        <li>Line：{driver_info['lineID']}</li>
+        <li>起點：{driver_info['start']}</li>
+        <li>終點：{driver_info['End']}</li>
+        <li>特殊需求：{driver_info['remark']}</li>
+    </ul>
+    <div>{contentPassengers}</div>
+
+    <strong>【最後聲明】本平台只提供媒合服務，不抽取任何費用與任何擔保安全，請將此旅程告知親友，並保護自身安全！</strong>
+    <p>若兩方乘客與司機談妥成功，歡迎填寫 <a href="https://forms.gle/GKkwyPJKcvzZoTG17">意見回饋表單<a> 讓我們知道，謝謝！！</p>
+    <p>再次感謝您的配合與支持！感謝你！</p>
+    <p>By 民眾順風車 小草志工團</p>
+</div>
